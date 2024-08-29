@@ -1,0 +1,35 @@
+.header {
+    text-align: center;
+    padding: 50px 0;
+    font-size: 1.3rem;
+    letter-spacing: 0.2em;
+    color: #000000; 
+    background-color: #ffffff;
+    clip-path: polygon(0 50%, 100% 50%, 100% 50%, 0 50%);
+    animation-name: kf_header;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+.header span {
+    color: red;
+    border-bottom: 2px solid rgb(79, 47, 209)
+}
+
+
+@keyframes kf_header {
+    100% {
+        clip-path: polygon(0 100%, 100% 100%, 100% 0, 0 0);
+    }
+}
+
+.footer {
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    padding: 10px 20px;
+    background-color: #ffffff;
+    color: #000000;
+    text-decoration: none;
+    border-radius: 5px;
+}
